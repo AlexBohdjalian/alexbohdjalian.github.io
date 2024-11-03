@@ -88,7 +88,11 @@ moon.position.setX(-10);
 
 const loader = new GLTFLoader();
 
-let flyingSaucer, earth, rectangle;
+interface loadedObject {
+  scene: THREE.Group<THREE.Object3DEventMap>;
+  normalAxis: THREE.Vector3;
+}
+let flyingSaucer: loadedObject | null, earth: loadedObject | null, rectangle;
 
 // Load and set up flying saucer model
 loader.load(
@@ -147,7 +151,13 @@ function createRectangle() {
 }
 
 // Function to create a texture from text
-function addTextToRectangle(rectangle) {
+function addTextToRectangle(
+  rectangle: THREE.Mesh<
+    THREE.PlaneGeometry,
+    THREE.MeshBasicMaterial,
+    THREE.Object3DEventMap
+  >
+) {
   const canvas = document.createElement("canvas");
   const context = canvas.getContext("2d");
 
