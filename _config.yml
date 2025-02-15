@@ -67,6 +67,7 @@ author:
   name   : "Alex Bohdjalian"
   avatar : "/assets/images/bio-photo.jpg"
   bio: "Software Developer, creating robust and performant applications."
+  location: "Portishead, UK"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
