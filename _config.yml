@@ -25,6 +25,8 @@ github_username: AlexBohdjalian
 minimal_mistakes_skin: dark
 search: true
 
+copyright: "Alex Bohdjalian"
+
 locale: en_GB
 
 # Build settings
@@ -65,8 +67,8 @@ plugins:
 
 author:
   name   : "Alex Bohdjalian"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio: "Software Developer, creating robust and performant applications."
+  avatar : "/assets/images/bio-photo.png"
+  bio: "Passionate about elegant, robust and performant web applications."
   location: "Portishead, UK"
   links:
     - label: "GitHub"
@@ -105,10 +107,3 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
