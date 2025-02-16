@@ -1,7 +1,5 @@
 ---
 title: "Exploring API Integration with MoolaMate"
-categories:
-  - Blog
 tags:
   - Laravel
   - AI
