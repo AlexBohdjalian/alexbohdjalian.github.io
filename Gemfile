@@ -17,3 +17,5 @@ group :jekyll_plugins do
 end
 
 gem "mutex_m", "~> 0.3.0"
+
+gem "ostruct", "~> 0.6.1"
