@@ -9,7 +9,7 @@ tags:
   - OpenAI
   - Web Development
 excerpt: >-
-  A deep dive into Structured Output, by implementing a project that combines React and Laravel to manage transactions with AI-powered insights.
+  A self-learning project around integrating a customised LLM with Laravel backend to help users categorise transactional data.
 ---
 
 ## Introduction

@@ -71,6 +71,9 @@ author:
   bio: "Passionate about elegant, robust and performant web applications."
   location: "Portishead, UK"
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alex-bohdjalian"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexbohdjalian"
@@ -80,6 +83,9 @@ author:
 
 footer:
   links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/alex-bohdjalian"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/alexbohdjalian"
