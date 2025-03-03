@@ -1,6 +1,5 @@
 ---
 title: "Exploring Structured Output with MoolaMate"
-classes: wide
 categories: Blog
 tags:
   - Laravel
