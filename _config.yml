@@ -2,9 +2,7 @@ title: Alex ⚡️ Blogs
 title_separator: "-"
 email: alex.bohdjalian@gmail.com
 description: >-
-  Welcome to my portfolio! I am a Software Developer with a passion for creating
-  robust and performant applications. I am currently working as a Software
-  Developer at Mayden, a healthcare software company based in Bath, UK.
+  Welcome to my blog! I am a Software Developer with a passion for creating robust and performant applications.
 github_username: AlexBohdjalian
 minimal_mistakes_skin: dark
 search: true
@@ -92,6 +90,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
